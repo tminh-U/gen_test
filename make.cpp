@@ -3,12 +3,20 @@ using namespace std;
 
 
 #define ll long long
+
+//so luong test
 const int SIZE = 100;
 
 signed main(void) {
+
+    //thay doi flag compile
     system("g++ gen.cpp -O2 -o gen.exe");
     system("g++ sol.cpp -O2 -o sol.exe");
     
+
+    //tao folder test
+
+
     system("mkdir tests");
     for (int i = 1; i <= SIZE; ++i) {
         string num = to_string(i);
@@ -22,4 +30,6 @@ signed main(void) {
     }
     cout << "Hoan thanh";
     return 0;
+
+    // nen folder test sau khi tao de up
 }
